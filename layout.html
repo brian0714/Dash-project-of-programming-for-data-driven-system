@@ -1,0 +1,44 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Breakdown Dashboard</title>
+</head>
+<body style="text-align:center; width:100%; display:inline-block;">
+    <img src="https://assets.datacamp.com/production/repositories/5893/datasets/fdbe0accd2581a0c505dab4b29ebb66cf72a1803/e-comlogo.png" style="margin:30px 0px 0px 0px">
+    <h1>Sales breakdowns</h1>
+
+    <div style="width:350px; height:360px; display:inline-block; vertical-align:top; border:1px solid black; padding:20px;">
+        <h2>Controls</h2>
+        <br>
+        <h3>Major Category Select</h3>
+        <!-- Dropdown for Major Category -->
+        <div id="major_cat_dd"></div>
+        <br>
+        <h3>Minor Category Select</h3>
+        <!-- Dropdown for Minor Category -->
+        <div id="minor_cat_dd"></div>
+    </div>
+
+    <div style="width:700px; height:380px; display:inline-block; margin-bottom:5px;">
+        <h3 id="chosen_major_cat_title"></h3>
+        <div id="sales_line"></div>
+    </div>
+
+    <div style="width:1000px; height:200px; margin:10px auto; padding-right:30px;">
+        <div id="my_dt"></div>
+    </div>
+
+    <div style="width:1000px; height:650px; display:inline-block;">
+        <div id="scatter_compare"></div>
+        <div style="display:inline-block;">
+            <div id="major_cat"></div>
+        </div>
+        <div style="display:inline-block;">
+            <div id="minor_cat"></div>
+        </div>
+    </div>
+</body>
+</html>

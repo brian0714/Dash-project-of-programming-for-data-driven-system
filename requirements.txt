@@ -1,0 +1,11 @@
+# basic
+pandas
+numpy
+
+# visualization
+plotly
+dash
+dash-bootstrap-components
+
+# deploy
+gunicorn
